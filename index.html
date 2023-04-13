@@ -30,12 +30,13 @@
         </div>
         <script src="assets/script/script.js"></script>
         <script>
-            var audio = document.getElementById("audio");
-            audio.volume = 0.01;
+            let audio = document.getElementById("audio");
+            audio.volume = 0.02;
+            console.log(audio.volume);
         </script>
         <script>
             function play(){
-                var audio = document.getElementById("audio");
+                let audio = document.getElementById("audio");
                 audio.play();
             }
         </script>

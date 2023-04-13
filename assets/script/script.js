@@ -4,11 +4,3 @@ function copyDiscord(event){
     () => { alert('Discord copié !');},
     () => {});
 }
-
-let audio = document.getElementById("audio")[0];
-audio.play();
-
-function play(){
-  let audio = document.getElementById("audio")[0];
-  audio.play();
-}
