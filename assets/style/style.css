@@ -2,7 +2,8 @@
 
 body {
     background-image: url(../img/fond.gif);
-    background-size: cover;
+    background-size: auto;
+    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     background-repeat: no-repeat;
