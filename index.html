@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html onclick="play()" lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/style/style.css">
         <link rel="stylesheet" href="assets/style/style.css">
-        <link rel="shortcut icon" type="image/png" href="assets/img/logo.ico"/>
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets/img/logo.ico"/>
+        <audio src="assets/music/ron_van_clief.mp3"></audio>
         <title>Jamy</title>
     </head>
     <body>
+        <audio id="audio" loop>
+            <source src="assets/music/ron_van_clief.mp3" type="audio/mp3">
+        </audio>
         <div class="centre" id="centre">
             <h1 id="titre"> Jamy </h1>
             <div class="sous-titre">
@@ -25,5 +29,15 @@
             <p>Wallpaper made by <a href="https://www.artstation.com/tizmah" target="_blank">Tizmah</a></p>
         </div>
         <script src="assets/script/script.js"></script>
+        <script>
+            var audio = document.getElementById("audio");
+            audio.volume = 0.01;
+        </script>
+        <script>
+            function play(){
+                var audio = document.getElementById("audio");
+                audio.play();
+            }
+        </script>
     </body>
 </html>
