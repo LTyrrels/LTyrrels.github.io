@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-image: url(../img/fond.gif);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.centre{
+    margin: 220px;
+    text-align: center;
+}
+
+#titre{
+    font-size: 70px;
+    text-shadow: 2px 1px 2px #295383;
+}
+
+a:visited, a:hover, a:link{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px #295383;
+}
+
+.bottom-text{
+    position: absolute;
+
+    bottom: 0px;
+}
