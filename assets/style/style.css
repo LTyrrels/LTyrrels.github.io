@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    background-image: url(LTyrrels.github.io/assets/img/fond.gif);
+    background-image: url(../img/fond.gif);
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
     color: white;
